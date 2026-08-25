@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Generator - Multiple Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 PDF Generator</h1>
+        <p class="subtitle">Generate fun PDFs in different categories!</p>
+        
+        <div class="categories-grid">
+            <div class="category-card unhinged">
+                <h2>🤪 Unhinged</h2>
+                <p>Completely wild and chaotic content</p>
+                <button onclick="generatePDF('unhinged')">Generate PDF</button>
+            </div>
+            
+            <div class="category-card dumb">
+                <h2>🤨 Dumb</h2>
+                <p>Hilariously silly and nonsensical</p>
+                <button onclick="generatePDF('dumb')">Generate PDF</button>
+            </div>
+            
+            <div class="category-card questionable">
+                <h2>❓ Questionable</h2>
+                <p>Weird and sus content</p>
+                <button onclick="generatePDF('questionable')">Generate PDF</button>
+            </div>
+            
+            <div class="category-card normal">
+                <h2>📄 Normal</h2>
+                <p>Professional and standard content</p>
+                <button onclick="generatePDF('normal')">Generate PDF</button>
+            </div>
+            
+            <div class="category-card others">
+                <h2>🎲 Others</h2>
+                <p>Random mixed content</p>
+                <button onclick="generatePDF('others')">Generate PDF</button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Made with ❤️ for fun</p>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

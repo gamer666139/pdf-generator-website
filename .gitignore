@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Generated PDFs
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
